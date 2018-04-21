@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+
+}
+
+.box {
+  display: inline-block;
+  height: 100px;
+  width: 24%;
+}
+.red {
+  background-color: red;
+}
+.orange {
+  background-color: orange;
+}
+.silver {
+  background-color: silver;
+}
+.blue {
+  background-color: blue;
+}
+.container {
+  height: 200px;
+  width: 200px;
+  background-color: #2f5aea;
+}
+@media (max-width: 600px){
+
+  div:nth-child(2) {
+    display: none;
+    }
+    div:nth-child(3) {
+      display: none;
+    }
+
+}
+@media (min-width: 1000px) {
+  .box {
+    width: 100%;
+  }
+}
+@media (max-width: 450px) {
+  .box {
+    width: 49%;
+  }
+}
